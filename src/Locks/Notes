@@ -1,0 +1,15 @@
+lock.lock()
+1. Waits forever until the lock is available.
+2. Blocking call → thread stops and waits.
+3. Cannot be interrupted while waiting.
+4. Return Type void
+5. When you must have the lock before proceeding.
+
+lock.trylock()
+1. Tries to acquire the lock immediately (or for a limited time if you pass timeout).
+2. Non-blocking → thread continues if lock not available.
+3. Not interruptible (but tryLock(timeout, TimeUnit) is interruptible).
+4. boolean (true if lock acquired, false otherwise)
+5. When you want to try acquiring the lock but move on if it’s busy (avoid deadlocks).
+
+

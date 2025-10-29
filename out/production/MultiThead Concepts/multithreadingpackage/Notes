@@ -13,3 +13,6 @@ Different State of the Thread  (In MyThreads)
 
 //Yield Meaning
 - Give chance to the other Threads to run;
+
+//Daemon Threads
+- Daemon threads are background threads that die automatically when all user (non-daemon) threads finish.
