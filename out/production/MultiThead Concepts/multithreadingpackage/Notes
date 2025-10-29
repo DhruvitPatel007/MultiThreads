@@ -1,0 +1,15 @@
+Different State of the Thread  (In MyThreads)
+
+1. NEW
+2. RUNNABLE (It is not interface which we have implemented)
+3. BLOCKED / WAITING
+4. TERMINATED
+
+
+//When to use Runnable
+
+- when the A class is already extended the class B the if you want to create the thread of A then you have to implement the Runnable you can not extend the Thread.
+
+
+//Yield Meaning
+- Give chance to the other Threads to run;
